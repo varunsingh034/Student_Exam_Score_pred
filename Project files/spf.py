@@ -5,7 +5,7 @@ from sklearn.preprocessing import OrdinalEncoder
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-spf_df = pd.read_csv('D:\Programs\PYTHON\Project\SPF\spf.csv')
+spf_df = pd.read_csv('D:\Programs\GIT\Student_Exam_Score_pred\Dataset\spf.csv')
 
 spf_df.drop(columns=['School_Type','Parental_Education_Level','Gender','Internet_Access',
                      'Learning_Disabilities','Distance_from_Home','Extracurricular_Activities',

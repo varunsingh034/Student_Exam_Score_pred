@@ -1,10 +1,10 @@
 import numpy as np
 import pickle
 
-oe_atr = pickle.load(open("D:\Programs\PYTHON\Project\SPF\oe_atr.pkl", "rb"))
-oe_ml = pickle.load(open("D:\Programs\PYTHON\Project\SPF\oe_ml.pkl", "rb"))
-oe_pi = pickle.load(open("D:\Programs\PYTHON\Project\SPF\oe_pi.pkl", "rb"))
-lr = pickle.load(open("D:\Programs\PYTHON\Project\SPF\lr_model.pkl", "rb"))
+oe_atr = pickle.load(open("D:\Programs\GIT\Student_Exam_Score_pred\Model\oe_atr.pkl", "rb"))
+oe_ml = pickle.load(open("D:\Programs\GIT\Student_Exam_Score_pred\Model\oe_ml.pkl", "rb"))
+oe_pi = pickle.load(open("D:\Programs\GIT\Student_Exam_Score_pred\Model\oe_pi.pkl", "rb"))
+lr = pickle.load(open("D:\Programs\GIT\Student_Exam_Score_pred\Model\lr_model.pkl", "rb"))
 
 test_input = np.array([10,70,7,80,4,4,'High','Medium','Neutral'],dtype=object).reshape(1, -1)
 
